@@ -55,3 +55,11 @@ input {
 .emoji:hover {
   background-color: grey;
 }
+
+.message {
+  color:blue;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}

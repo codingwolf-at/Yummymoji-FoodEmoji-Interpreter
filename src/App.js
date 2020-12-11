@@ -112,7 +112,7 @@ export default function App() {
           called
         </p>
         <input onChange={emojiEventHandler} />
-        <h2>This is: " {meaning} "</h2>
+        <h2 className="message">This is: " {meaning} "</h2>
         <h3> Emojis We Know </h3>
 
         <ul className="emojiList">
