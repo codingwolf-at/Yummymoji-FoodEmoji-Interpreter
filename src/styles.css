@@ -36,11 +36,21 @@ input {
 .emojiList {
   list-style-type: none;
   padding-inline-start: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .emoji {
   display: inline;
   font-size: 2rem;
   padding: 1rem;
+  margin: 0.3rem;
   cursor: pointer;
+  background: #fcfcfc;
+  border-radius: 1rem;
+}
+
+.emoji:hover {
+  background-color: grey;
 }
