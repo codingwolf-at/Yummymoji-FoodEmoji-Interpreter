@@ -45,10 +45,11 @@ input {
   display: inline;
   font-size: 2rem;
   padding: 1rem;
-  margin: 0.3rem;
+  margin: 0.5rem;
   cursor: pointer;
   background: #fcfcfc;
   border-radius: 1rem;
+  min-width: 50px;
 }
 
 .emoji:hover {
